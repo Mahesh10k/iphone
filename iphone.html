@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            height: fit-content;
+            width: fit-content;   
+        }
+        .outerlayer {
+            border: 8px solid black;
+            border-radius: 20px;
+            height: 300px;
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            background-image: url(https://i.pinimg.com/736x/ab/51/9d/ab519d405bab7d2839876000bd81431d.jpg);
+        }
+        .top {
+            border-radius: 10px;
+            height: 15px;
+            width: 60px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: black;
+        }
+        .bottom {
+            color: whitesmoke;
+            height: 20px;
+            width: 150px;
+            margin-top: 45px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .time {
+            height: fit-content;
+            width: 150px;
+            color: white;
+            font-size: xx-large;
+            font-weight: bold;
+            font-family:'digital-clock-font';
+            text-align: center;
+            padding-top: 30px;
+        }
+        .date {
+            font-size: small;
+        }
+        .icons {
+            height: fit-content;
+            width: 150px;
+            padding-top: 80px;
+            font-size: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="outerlayer">
+        <div class="top">
+            <marquee behavior="move" direction="right" style="color: white;">New Notification</marquee>
+        </div>
+        <div class="time">2.55
+            <div class="date">21-07-2024 <br>Sunday</div>
+        </div>
+        <div class="icons">
+            <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram" style="color: brown;"></i></a>
+            <a href="https://x.com/i/flow/login"><i class="fa-brands fa-twitter" style="color: blue;"></i></a>
+            <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Faccount%26feature%3Dredirect_login&hl=en&ifkv=AdF4I77EKgbHAjKmiwy0EQzYXseNgITi56evuFKNJGxR-7EybUfAKcrdY_-3f8DSGKJXtCZwGCj0YA&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-636576188%3A1721542350438041&ddm=0"><i class="fa-brands fa-youtube" style="color: red;"></i></a>
+        </div>
+        <div class="bottom">
+            <a> > </a>
+            <a> O </a>
+            <a> > </a>
+        </div>  
+    </div>
+</body>
+</html>
